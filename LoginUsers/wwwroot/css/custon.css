@@ -1,0 +1,23 @@
+﻿namespace LoginUsers.wwwroot.css
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table td {
+    text-align: left;
+}
+
+.actions {
+    text-align: right;
+}
+

@@ -1,0 +1,13 @@
+﻿﻿@using LoginUsers.ViewModels;
+@model User
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center"> 
+    <p> Seja bem vindo  @Model.Name</p>
+    <p>Para visualizar a lista de usuários, clique no botão abaixo:</p>
+    <a href="@Url.Action("ListUsers", "Home")" class="btn btn-success">Lista</a>
+</div>
+
